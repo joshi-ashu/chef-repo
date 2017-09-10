@@ -8,4 +8,6 @@
 
 windows_feature "Telnet-Client" do
   action :install
+  all true
+  provider :windows_feature_powershell
 end
